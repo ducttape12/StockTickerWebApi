@@ -25,9 +25,7 @@ namespace StockTicker
                 options.AddDefaultPolicy(builder =>
                 {
                     builder
-                        .WithOrigins("http://localhost:3000")
-                        .AllowAnyHeader()
-                        .AllowAnyMethod();
+                        .WithOrigins("http://localhost:3000");
                 });
             });
             services.AddControllers();
