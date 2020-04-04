@@ -8,7 +8,7 @@ namespace StockTicker.FinancialModelingPrep
 {
     public class FinancialModelingPrepClient : IFinancialModelingPrepClient
     {
-        private const int SearchResultLimit = 10;
+        private const int SearchResultLimit = 30;
 
         public IEnumerable<SearchModel> Search(string symbol)
         {
