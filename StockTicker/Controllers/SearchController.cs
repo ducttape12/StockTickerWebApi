@@ -22,12 +22,15 @@ namespace StockTicker.Controllers
         {
             var results = financialModelingPrepClient.Search(query);
 
-            return results.Select(x => new SearchResult
-            {
-                Symbol = x.Symbol,
-                Name = x.Name,
-                StockExchange = x.StockExchange
-            }).ToList();
+            return results
+                .Select(x => new SearchResult
+                {
+                    Symbol = x.Symbol,
+                    Name = x.Name,
+                    StockExchange = x.StockExchange
+                })
+                .OrderBy(result => result.Name)
+                .ToList();
         }
     }
 }
