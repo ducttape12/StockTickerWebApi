@@ -25,7 +25,7 @@ namespace StockTicker
                 options.AddDefaultPolicy(builder =>
                 {
                     builder
-                        .WithOrigins("http://localhost:3000");
+                        .WithOrigins(new string[] { "http://localhost:3000", "https://simple-stock-ticker.netlify.app/", "http://simplestockticker.keithott.com/" });
                 });
             });
             services.AddControllers();
