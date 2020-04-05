@@ -27,8 +27,10 @@ This project gathers its information from the [Financial Modeling Prep API](http
 
 The API is available at [https://stocktickerwebapi.azurewebsites.net](https://stocktickerwebapi.azurewebsites.net).  There are two endpoints available:
 
-* https://stocktickerwebapi.azurewebsites.net/api/search?query={query}, where {query} is the ticker search term (will return the first 30 matches)
-* https://stocktickerwebapi.azurewebsites.net/api/profile/{ticker}, where {ticker} is the ticker symbol of the company
+* https://stocktickerwebapi.azurewebsites.net/api/search?query={query}
+  * Returns the first 30 stock ticker symbols matching {query}
+* https://stocktickerwebapi.azurewebsites.net/api/profile/{ticker}
+  * Returns information about the company associated with the stock {ticker} symbol
 
 This API is used by [this UI](https://github.com/ducttape12/StockTickerUI).  Visit [https://simplestockticker.keithott.com](https://simplestockticker.keithott.com) to see a demo of this application.
 
