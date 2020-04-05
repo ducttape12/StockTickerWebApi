@@ -18,7 +18,7 @@ namespace StockTicker.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<SearchResult> Get(string query)
+        public ActionResult<IEnumerable<SearchResult>> Get(string query)
         {
             var results = financialModelingPrepClient.Search(query);
 

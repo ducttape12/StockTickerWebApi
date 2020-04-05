@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTicker", "StockTicker\StockTicker.csproj", "{D08656A6-AA3D-4D63-A370-EAD64E91C821}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockTicker", "StockTicker\StockTicker.csproj", "{D08656A6-AA3D-4D63-A370-EAD64E91C821}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerUnitTests", "StockTickerUnitTests\StockTickerUnitTests.csproj", "{AB4414E8-9B19-4075-9D80-FAD2B11C07DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockTickerIntegrationTests", "StockTickerIntegrationTests\StockTickerIntegrationTests.csproj", "{FE81EB57-2DEE-4754-9226-E9724F056054}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D08656A6-AA3D-4D63-A370-EAD64E91C821}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D08656A6-AA3D-4D63-A370-EAD64E91C821}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D08656A6-AA3D-4D63-A370-EAD64E91C821}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB4414E8-9B19-4075-9D80-FAD2B11C07DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB4414E8-9B19-4075-9D80-FAD2B11C07DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB4414E8-9B19-4075-9D80-FAD2B11C07DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB4414E8-9B19-4075-9D80-FAD2B11C07DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE81EB57-2DEE-4754-9226-E9724F056054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE81EB57-2DEE-4754-9226-E9724F056054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE81EB57-2DEE-4754-9226-E9724F056054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE81EB57-2DEE-4754-9226-E9724F056054}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
