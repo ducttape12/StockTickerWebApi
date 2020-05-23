@@ -51,7 +51,7 @@ namespace StockTickerIntegrationTests
 
             // Assert
             Assert.AreEqual("AAPL", result.Symbol);
-            Assert.AreEqual("Apple Inc.", result.Profile.CompanyName);
+            Assert.AreEqual("Apple Inc.", result.CompanyName);
         }
     }
 }

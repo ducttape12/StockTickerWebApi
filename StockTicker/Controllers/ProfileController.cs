@@ -21,21 +21,21 @@ namespace StockTicker.Controllers
         {
             var company = financialModelingPrepClient.CompanyProfile(id);
 
-            if(company == null || company.Profile == null || company.Symbol == null)
+            if(company == null || company.Symbol == null)
             {
                 return NotFound();
             }
 
             return new CompanyProfileResult
             {
-                CompanyName = company.Profile.CompanyName,
-                Description = company.Profile.Description,
-                Exchange = company.Profile.Exchange,
-                Image = company.Profile.Image,
-                Industry = company.Profile.Industry,
-                Price = company.Profile.Price,
+                CompanyName = company.CompanyName,
+                Description = company.Description,
+                Exchange = company.Exchange,
+                Image = company.Image,
+                Industry = company.Industry,
+                Price = company.Price,
                 Symbol = company.Symbol,
-                Website = company.Profile.Website
+                Website = company.Website
             };
         }
     }

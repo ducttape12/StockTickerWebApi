@@ -10,6 +10,8 @@ This project was written in .NET Core 3.1.  The easiest way to run the project i
 
 Tests are split into two projects.  The tests in StockTicketIntegrationTests will communcate with the financialmodelingprep.com API, whereas the tests in StockTickerUnitTests are all self-contained.
 
+Please note you'll need to get a free API Key from the [Financial Modeling Prep API](https://financialmodelingprep.com/developer/docs/) site.  Once you get a free API Key, set the ```ApiKey``` variable in ```FinancialModelingPrepClient.cs``` equal to this key.
+
 ## Technologies Used
 
 The following technology was used in building this backend:
