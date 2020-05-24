@@ -2,8 +2,6 @@
 
 The backend for a simple stock ticker.  Used by the frontend project available [in this Github repo](https://github.com/ducttape12/StockTickerUI).
 
-Written by Keith Ott.  [See Keith Ott's resume here.](https://simplestockticker.keithott.com/ott-keith-resume-2020.pdf)
-
 ## Running
 
 This project was written in .NET Core 3.1.  The easiest way to run the project is by installing [Visual Studio 2019](https://visualstudio.microsoft.com/vs/).
